@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practice</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
     <script LANGUAGE ="javascript">
         function TotalTile(width, height, cost){
             alert(width*height*cost);
@@ -17,15 +18,34 @@
 </head>
 <body>
     <form name="frm">
-        <label>1. Find Cost of Tile to Cover W x H Floor</label><br/>
-        <label>W</label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="W"><br/>
-        <label>H</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="H"><br/>
-        <label>Cost</label>&nbsp;<input type="text" name="Cost"><br/>
-        <input type="submit" value="Caculator" onclick="TotalTile(frm.W.value,frm.H.value,frm.Cost.value);"/><br/>
-        <label>2. Tax Calculator</label><br/>
-        <label>Cost</label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Cost2"><br/>
-        <label>Tax</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Tax"><br/>
-        <input type="submit" value="Caculator" onclick="TaxCalculator(frm.Cost2.value,frm.Tax.value);"/>
+        <div class="main">
+            <div class="practice">
+                <label>1. Find Cost of Tile to Cover W x H Floor</label><br/>
+                <div class="lbl">
+                    <label>W</label><br>
+                    <label>H</label><br>
+                    <label>Cost</label><br>
+                </div>
+                <div class="tbx">
+                    <input type="text" name="W"><br/>
+                    <input type="text" name="H"><br/>
+                    <input type="text" name="Cost"><br/>
+                </div>
+                <input type="submit" value="Caculator" onclick="TotalTile(frm.W.value,frm.H.value,frm.Cost.value);"/><br/>
+            </div>
+            <div class="practice">
+                <label>2. Tax Calculator</label><br/>
+                <div class="lbl">
+                    <label>Cost</label><br>
+                    <label>Tax</label><br>
+                </div>
+                <div class="tbx">
+                    <input type="text" name="Cost2"><br/>
+                    <input type="text" name="Tax"><br/>
+                </div>
+            <input type="submit" value="Caculator" onclick="TaxCalculator(frm.Cost2.value,frm.Tax.value);"/>
+            </div>
+        </div>
     </form>
 </body>
 </html>
