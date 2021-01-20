@@ -13,6 +13,17 @@
         function TaxCalculator(cost, tax){
             alert(cost*tax+Number(cost));
         }
+        function Reverse(str){
+            let reversed = "";
+            for (var i = str.length - 1 ; i >=0 ; i--){
+                reversed += str[i];
+            }
+            alert(reversed);
+            return reversed; 
+        }
+        function Length(str){
+            alert(str.length);
+        }
     </script>
 
 </head>
@@ -44,6 +55,12 @@
                     <input type="text" name="Tax"><br/>
                 </div>
             <input type="submit" value="Caculator" onclick="TaxCalculator(frm.Cost2.value,frm.Tax.value);"/>
+            </div>
+            <div>
+            <label>Revese/Length String</label><br/>
+            <label>Input</label><input type ="text" name="Input"></input><br/>
+            <label></label><input type="submit" value="Revese" onclick="Reverse(frm.Input.value);"></input><br/>
+            <label></label><input type="submit" value="Length" onclick="Length(frm.Input.value);"></input><br/>
             </div>
         </div>
     </form>
