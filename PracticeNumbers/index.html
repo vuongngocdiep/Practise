@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Practice</title>
+</head>
+<body onload="anima('textElement')"> 
+    <div class="main">
+        <p>1. Date time</p>
+        <button onclick="dateTime()"> Date time </button>
+        <p id="date"></p>
+        <p id="time"></p>
+        <p>2. Area of triangle</p>
+        <input type="text" id="a"><br>
+        <input type="text" id="b"><br>
+        <input type="text" id="c"><br>
+        <p id="area"></p>
+        <button onclick="areaofTriangle(document.getElementById('a').value,document.getElementById('b').value,document.getElementById('c').value)">Area of Triangle</button>
+        <p>3. Text animation</p>
+        <p id="textElement">Mấy con mèo </p>
+        <p>4. Find Pi</p>
+        <input type="text" id="decimalPlacesPi">
+        <p id="pi"></p>
+        <button onclick="findPi(document.getElementById('decimalPlacesPi').value)">Find Pi</button>
+        <p>5. Find E</p>
+        <input type="text" id="decimalPlacesE">
+        <p id="e"></p>
+        <button onclick="findE(document.getElementById('decimalPlacesE').value)">Find E</button>
+        <p>6. Fiboncci</p>
+        <input type="text" id="numberofFiboncci"><br>
+        <textarea id="fiboncci" disabled="true"></textarea><br>
+        <button onclick="fiboncci(document.getElementById('numberofFiboncci').value)">Find Fiboncci</button>
+        <p>7. Prime</p>
+        <input type="text" id="interger"><br>
+        <textarea id="prime" disabled="true"></textarea><br>
+        <button onclick="prime(document.getElementById('interger').value)">Find Prime</button>
+        <p>8. Binary to Decimal</p>
+        <input type="text" id="binary"><br>
+        <p id="btoD"></p>
+        <button onclick="binarytoDecimal(document.getElementById('binary').value)">Change to Decimal</button>
+        <p>9. Decimal to Binary</p>
+        <input type="text" id="decimal"><br>
+        <p id="dtoB"></p>
+        <button onclick="decimaltoBinary(document.getElementById('decimal').value)">Change to Binary</button>
+        <p>10. Collatz</p>
+        <input type="text" id="numberStart"><br>
+        <textarea id="arrNumber" disabled="true"></textarea>
+        <p id="steps"></p>
+        <button onclick="collatz(document.getElementById('numberStart').value)">Change to Binary</button>
+    </div>
+</body>
+</html>
