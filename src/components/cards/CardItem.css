@@ -1,0 +1,69 @@
+h5{
+    text-align: center;
+    width: 40%;
+    border-radius: 5px;
+}
+.types{
+    display: flex;
+    column-gap: 5px;
+}
+.normal{
+    background-color: gray;
+}
+.fighting{
+    background-color: darkorange;
+}
+.flying{
+    background-image: linear-gradient(blue 50%,gray 50%);
+}
+.poison{
+    background-color: violet;
+}
+.ground{
+    background-image: linear-gradient(yellow 50%,orange 50%);
+}
+.rock{
+    background-color: darkgoldenrod;
+}
+.bug{
+    background-color: darkgreen;
+}
+.ghost{
+    background-color: darkmagenta;
+}
+.steel{
+    background-color: gray;
+}
+.fire{
+    background-color: orange;
+}
+.water{
+    background-color: blue;
+}
+.grass{
+    background-color: green;
+}
+.electric{
+    background-color: yellow;
+}
+.psychic{
+    background-color: darkviolet;
+}
+.ice{
+    background-color: darkturquoise;
+}
+.dragon{
+    background-image: linear-gradient(blue 50%,orange 50%);
+}
+.dark{
+    background-color: slategrey;
+}
+.fairy{
+    background-color: pink;
+}
+.unknown{
+    background-color: gray;
+}
+.shadow{
+    background-color: gray;
+}

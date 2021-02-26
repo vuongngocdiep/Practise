@@ -1,0 +1,9 @@
+.info{
+    border-radius: 15px;
+    background-color: darkturquoise;
+    padding-left: 15px;
+    line-height: 15px;
+}
+.value{
+    color: white;
+}
