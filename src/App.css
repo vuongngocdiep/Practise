@@ -1,9 +1,9 @@
-.App{
-    width: 80%;
-    padding-top: 25px;
-    margin:auto;
+.App {
+  width: 80%;
+  padding-top: 25px;
+  margin: auto;
 }
-body{
-    background-image: linear-gradient(to Top,grey,white);
-    background-attachment: fixed;
+body {
+  background-image: linear-gradient(to Top, grey, white);
+  background-attachment: fixed;
 }
